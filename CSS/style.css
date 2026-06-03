@@ -1,0 +1,975 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff6ff;
+    color: #222;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* HEADER */
+header{
+    background-color: royalblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* CONTAINER */
+.container{
+    padding: 15px;
+}
+
+/* LOGO */
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+
+/* WEBSITE TITLE */
+.logo-section h2{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+/* NAVIGATION */
+.navMenu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navMenu a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navMenu a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+/* MAIN CONTENT */
+main{
+    margin-top: 280px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CARD STYLE */
+.card{
+    background-color: white;
+    width: 85%;
+    max-width: 900px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    border: 2px solid #cce7ff;
+}
+
+/* HEADINGS */
+h1, h2{
+    color: cadetblue;
+    margin-bottom: 20px;
+}
+
+/* PARAGRAPHS */
+p{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+/* TEAM MEMBERS */
+.team-member{
+    margin-bottom: 40px;
+}
+
+/* MEMBER IMAGES */
+.member-photo{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid cadetblue;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer{
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px){
+
+    .logo-section h2{
+        font-size: 22px;
+    }
+
+    .navMenu ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card{
+        width: 95%;
+    }
+
+    .member-photo{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff6ff;
+    color: #222;
+    text-align: center;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header{
+    background-color:cadetblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* HEADER CONTAINER */
+.header-container{
+    padding: 20px;
+}
+
+/* LOGO SECTION */
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LOGO */
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+
+/* WEBSITE TITLE */
+.logo-section h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+.navMenu ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* NAV LINKS */
+.navMenu a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.navMenu a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* MAIN */
+main{
+    margin-top: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CARD DESIGN */
+.card{
+    background-color: white;
+    width: 85%;
+    max-width: 900px;
+    padding: 35px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid #b7dcff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* HEADINGS */
+.card h2{
+    color: cadetblue;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* PARAGRAPHS */
+.card p{
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding: 15px;
+    border-left: 5px solid cadetblue;
+    background-color: #f5fbff;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: cadetblue;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px){
+
+    .logo-section h2{
+        font-size: 22px;
+    }
+
+    .navMenu ul{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .card{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .card h2{
+        font-size: 26px;
+    }
+
+    .card p{
+        font-size: 16px;
+    }
+}
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff6ff;
+    color: #222;
+    text-align: center;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header{
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* HEADER CONTAINER */
+.header-container{
+    padding: 20px;
+}
+
+/* LOGO SECTION */
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LOGO */
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+
+/* WEBSITE TITLE */
+.logo-section h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+.navMenu ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* NAV LINKS */
+.navMenu a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.navMenu a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* MAIN CONTENT */
+main{
+    margin-top: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CARD STYLE */
+.card{
+    background-color: white;
+    width: 85%;
+    max-width: 900px;
+    padding: 35px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid #b7dcff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* CARD HEADINGS */
+.card h2{
+    color: cadetblue;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* PARAGRAPHS */
+.card p{
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding: 15px;
+    border-left: 5px solid cadetblue;
+    background-color: #f5fbff;
+    border-radius: 10px;
+}
+
+/* CONTACT INFO */
+.contact-info{
+    margin-top: 20px;
+}
+
+/* FORM */
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* LABELS */
+form label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+/* INPUTS */
+form input,
+form textarea{
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #b7dcff;
+    font-size: 16px;
+    outline: none;
+}
+
+/* TEXTAREA */
+form textarea{
+    resize: vertical;
+}
+
+/* BUTTON */
+.btn{
+    margin-top: 20px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.btn:hover{
+    background-color: #003cb3;
+}
+
+/* MAP CONTAINER */
+.map-container{
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer{
+    background-color: cadetblue;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px){
+
+    .logo-section h2{
+        font-size: 22px;
+    }
+
+    .navMenu ul{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .card{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .card h2{
+        font-size: 26px;
+    }
+
+    .card p{
+        font-size: 16px;
+    }
+}
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff6ff;
+    color: #222;
+    text-align: center;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header{
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* HEADER CONTAINER */
+.header-container{
+    padding: 20px;
+}
+
+/* LOGO SECTION */
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LOGO */
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+
+/* WEBSITE TITLE */
+.logo-section h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+.navMenu ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* NAVIGATION LINKS */
+.navMenu a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.navMenu a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* MAIN */
+main{
+    margin-top: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CARD DESIGN */
+.card{
+    background-color: white;
+    width: 85%;
+    max-width: 950px;
+    padding: 35px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid #b7dcff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* HEADINGS */
+.card h1,
+.card h2{
+    color: cadetblue;
+    margin-bottom: 20px;
+}
+
+.card h1{
+    font-size: 36px;
+}
+
+.card h2{
+    font-size: 30px;
+}
+
+/* PARAGRAPHS */
+.card p{
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding: 15px;
+    background-color: #f5fbff;
+    border-left: 5px solid cadetblue;
+    border-radius: 10px;
+}
+
+/* INTEREST BOXES */
+.interest-box{
+    background-color: #f9fcff;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid #d0e7ff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* INTEREST TITLES */
+.interest-box h3{
+    color: cadetblue;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* FOOTER */
+footer{
+    background-color: cadetblue;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px){
+
+    .logo-section h2{
+        font-size: 22px;
+    }
+
+    .navMenu ul{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .card{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .card h1{
+        font-size: 28px;
+    }
+
+    .card h2{
+        font-size: 24px;
+    }
+
+    .card p{
+        font-size: 16px;
+    }
+
+    .interest-box h3{
+        font-size: 20px;
+    }
+}
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff6ff;
+    color: #222;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* FIXED HEADER */
+header{
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* HEADER CONTAINER */
+.header-container{
+    padding: 20px;
+}
+
+/* LOGO SECTION */
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LOGO */
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+
+/* WEBSITE TITLE */
+.logo-section h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+.navMenu ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* NAVIGATION LINKS */
+.navMenu a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* NAV HOVER */
+.navMenu a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* MAIN CONTENT */
+main{
+    margin-top: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CARD DESIGN */
+.card{
+    background-color: white;
+    width: 85%;
+    max-width: 950px;
+    padding: 35px;
+    border-radius: 20px;
+    border: 2px solid #b7dcff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* HEADING */
+.card h1{
+    color: cadetblue;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+/* PARAGRAPHS */
+.card p{
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding: 15px;
+    background-color: #f5fbff;
+    border-left: 5px solid cadetblue;
+    border-radius: 10px;
+}
+
+/* FORM */
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* LABELS */
+form label{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+/* INPUT FIELDS */
+form input[type="text"],
+form textarea{
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #b7dcff;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* TEXTAREA */
+form textarea{
+    resize: vertical;
+}
+
+/* RADIO BUTTONS */
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn{
+    margin-top: 20px;
+    padding: 14px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.btn:hover{
+    background-color: cadetblue;
+}
+
+/* FOOTER */
+footer{
+    background-color: cadetblue;
+    color: white;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px){
+
+    .logo-section h2{
+        font-size: 24px;
+    }
+
+    .navMenu ul{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    main{
+        margin-top: 350px;
+    }
+
+    .card{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .card h1{
+        font-size: 28px;
+    }
+
+    .card p{
+        font-size: 16px;
+    }
+
+    .radio-group{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* IMAGE CAROUSEL */
+.carousel{
+    position: relative;
+    width: 90%;
+    max-width: 950px;
+    height: 450px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.slides{
+    display: flex;
+    width: max-content;
+    animation: slide 20s infinite steps(5);
+}
+
+.slides img{
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: contain;
+    display: block;
+}
+
+@keyframes slide{
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-400%);
+    }
+}
+
+@media (max-width:768px){
+    .carousel{
+        height: 250px;
+    }
+
+    .slides img{
+        height: 250px;
+    }
+}
+
